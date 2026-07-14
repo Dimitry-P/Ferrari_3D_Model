@@ -1,0 +1,32 @@
+[33mcommit 55ffe2aaba02d6f9eed58b47604b0032e826188d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dimitry-P <142058310+Dimitry-P@users.noreply.github.com>
+Date:   Mon Jul 13 12:05:01 2026 +0300
+
+    Fix Ferrari mesh geometry, normals and UV mapping
+    
+    - Fixed missing polygons on the Ferrari body
+    - Corrected flipped normals
+    - Rebuilt damaged mesh geometry
+    - Fixed UV islands after mesh editing
+    - Restored proper texture mapping on repaired polygons
+    - Removed shading artifacts and black triangles
+    исправил геометрию;
+    восстановил отсутствующие полигоны;
+    поправил нормали;
+    исправил UV-развертку;
+    устранил черные артефакты на модели.
+    
+    Reference assets:
+    - Latest Blender model: car_v01_fixed_normals.blend
+    - Current texture: race_car_albedo_FINAL.png
+
+[33mcommit 9edd689a6174cd2c9ffb3ab2cff8b6b0d3f25cdf[m
+Author: Dimitry-P <142058310+Dimitry-P@users.noreply.github.com>
+Date:   Wed Jun 24 05:45:56 2026 +0300
+
+    Clean up car body geometry and shading artifacts
+    
+    Resolved geometry and shading problems caused by distorted polygons and
+    surface artifacts. Adjusted vertices, fixed problematic faces and preserved
+    all materials, textures and UV mapping. Kept modifiers unapplied for future
+    editing.
