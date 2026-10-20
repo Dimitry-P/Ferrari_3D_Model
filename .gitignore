@@ -75,8 +75,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Blender backup files
-*.blend1
-*.blend2
+*.blend[0-9]*
 *.blend@
 
 # Temporary files
