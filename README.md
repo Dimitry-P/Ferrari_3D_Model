@@ -33,11 +33,13 @@ This project showcases a 3D Ferrari model created as a personal 3D modeling proj
 - Integration of 3D assets into a Unity project.
 - Organized project files and visual documentation.
 
-## Repository Contents
+## Repository Structure
 
-- `Screenshots/` — project screenshots and renders.
-- Blender source files — 3D model and related assets.
-- Unity project files — resources for presenting the model in Unity.
+- `Assets/` — Unity assets, including 3D models and related resources.
+- `Base_Shape_Modeling_Blender/` — Blender source files and modeling resources.
+- `Packages/` — Unity package manifest and package configuration.
+- `ProjectSettings/` — Unity project settings.
+- `Screenshots/` — project renders and visual previews.
 
 ## Project Status
 
